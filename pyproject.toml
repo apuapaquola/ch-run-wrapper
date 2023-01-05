@@ -6,6 +6,10 @@ authors = ["Apuã Paquola <apuapaquola@gmail.com>"]
 readme = "README.md"
 packages = [{include = "ch_run_wrapper"}]
 
+[tool.poetry.scripts]
+ch-run-wrapper = "ch_run_wrapper:main"
+
+
 [tool.poetry.dependencies]
 python = "^3.10"
 
